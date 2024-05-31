@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Welcome from './components/Welcome.js';
 import Reverse from './components/Reverse/Reverse.js';
+import TodoList from './components/TodoList/TodoList.js';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         Evandro
       </Reverse>
       </div>
+      <TodoList/>
     </div>
   );
 }
