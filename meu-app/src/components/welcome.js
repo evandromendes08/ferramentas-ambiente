@@ -1,3 +1,5 @@
+import './Welcome/Welcome.css'
+
 function welcome({nome = 'usuário', sobrenome='Teste'}) {
     //const {nome, sobrenome} = props;
     return(

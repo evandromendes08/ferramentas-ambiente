@@ -1,15 +1,13 @@
 import React from 'react';
 import './App.css';
-import Welcome from './components/welcome.js';
+import Welcome from './components/Welcome.js';
 import Reverse from './components/reverse.js';
 
 function App() {
   return (
     <div className="App">
-      <h1>Olá!</h1>
-      <Welcome nome="Evandro" sobrenome="Mendes" />
-      <Welcome nome="Maria" />
-      {/* <Reverse texto="ola"/>
+     <Welcome nome="Evandro" sobrenome="Mendes" />
+    {/* <Reverse texto="ola"/>
       <Reverse texto="meu texto"/> */}
       <Reverse>
         Evandro
